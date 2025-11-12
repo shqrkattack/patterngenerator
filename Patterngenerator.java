@@ -38,6 +38,7 @@ public static void triangle(int rows){
 }
 
 public static void odds(int start){
+    //makes a loop that prints out only odd numbers  as man y times as the number it is
     for (int i = start; i>0; i-=2){
         for(int x = i; x>0; x--){
         System.out.print(i);
@@ -48,6 +49,7 @@ public static void odds(int start){
 
 
 public static void eo(int maxE){
+    // prints out e then o each likne and has the number of times its printed correspond to the line its on
     String letter = "E";
     if(maxE%2==0){
         letter = "O";
@@ -80,6 +82,7 @@ public static void eo(int maxE){
 
 
 public static void pyramid(int rows){
+    //prints out numbers in numerical order but itn a pyramid shape each line adds space to create that shape
     int i = rows;
     int num = 1;
     String space = " ";
